@@ -9,4 +9,10 @@ defmodule Cards do
     ["Ace", "Two", "Three"]
   end
 
+  def shuffle(deck) do
+    # Arity or the number of arguments a functions accepts
+    # Arity of one
+    Enum.shuffle(deck)
+  end
+  
 end
